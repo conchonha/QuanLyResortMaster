@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ThanhToanActivity" >
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ma_thanh_toan_prompt"
+        android:textColor="@color/black"
+        android:textSize="@dimen/fragment_small_title_size" />
+
+    <ImageView
+        android:id="@+id/ivQRCode"
+        android:layout_width="@dimen/qr_code_width"
+        android:layout_height="@dimen/qr_code_height"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp" />
+</LinearLayout>

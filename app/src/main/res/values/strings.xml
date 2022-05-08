@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Happy Resort</string>
+    <!--    dat phong-->
+    <string name="dat_phong_string">Đặt Phòng</string>
+    <string name="ngay_den_string">Ngày đến:</string>
+    <string name="ngay_di_string">Ngày đi:</string>
+    <!--    tab names  -->
+    <string name="trang_chu_string">Trang chủ</string>
+    <string name="khach_san_string">Khách sạn</string>
+    <string name="dich_vu_string">Dịch vụ</string>
+    <string name="lien_he_string">Liên hệ</string>
+    <string name="tai_khoan_string">Tài khoản</string>
+
+    <string name="nap_tien">Nạp tiền vào ví</string>
+    <string name="rut_tien">Rút tiền</string>
+    <string name="ma_thanh_toan">Mã thanh toán</string>
+    <string name="quet_ma">Quét mã</string>
+    <string name="so_du_trong_vi">Số dư trong ví</string>
+    <string name="ma_the_ngan_hang">Mã thẻ ngân hàng: </string>
+    <string name="nhap_so_tien">Nhập số tiền: </string>
+    <string name="don_vi_VND">đ</string>
+
+    <string name="lien_he">Liên hệ</string>
+    <string name="family">Gia đình</string>
+    <string name="inQuyNhon">Tại Quy Nhơn</string>
+    <string name="dress">Địa chỉ</string>
+    <string name="tel1">SDT : 0377 542 554</string>
+    <string name="tel2">SDT: 0329 433 479</string>
+    <string name="iconcskh">iconCSKH</string>
+    <string name="cskh">Chăm sóc khách hàng</string>
+    <string name="hotline">Hotline : 1900 9999</string>
+    <string name="email_cham_soc_khach_hang">Email: chamsockhachhang@gmail.com</string>
+    <string name="diachi1">Thôn Trung Lương, 1 ĐT640, Cát Tiến, Phù Cát, Bình Định</string>
+    <string name="inNhaTrang">Tại Nha Trang</string>
+    <string name="diachi2">Trần Phú, Lộc Thọ, Nha Trang, Khánh Hòa</string>
+    <string name="icon_dress">TODO</string>
+
+    <string name="login">Login / Đăng nhập</string>
+    <string name="saveLogin">Lưu đăng nhập</string>
+    <string name="register">Register / Đăng kí</string>
+    <string name="email">Email</string>
+    <string name="pasword">Pasword</string>
+    <string name="register_dangki">Register / Đăng kí tài khoản</string>
+    <string name="CMND">Identity Card/CMND</string>
+    <string name="account_number">Account number/Mã thẻ ngân hàng</string>
+    <string name="icon_email">TODO</string>
+    <string name="icon_lock">TODO</string>
+    <string name="icon_save">TODO</string>
+    <string name="HoTen">Họ tên</string>
+    <string name="tenDuKhach">Trần Văn Luân</string>
+    <string name="gmail_com">xxx@gmail.com</string>
+    <string name="cmnd_number">123456789</string>
+    <string name="logout">Logout</string>
+
+    <string name="ho_ten_prompt">Họ tên:</string>
+    <string name="email_prompt">Email:</string>
+    <string name="ngay_sinh_prompt">Ngày sinh:</string>
+    <string name="so_dien_thoai_prompt">SĐT:</string>
+    <string name="cmnd_prompt">CMND:</string>
+    <string name="thong_tin_khach_hang">Thông tin khách hàng</string>
+    <string name="nguoi_dat_phong">Người đặt phòng</string>
+    <string name="di_cung">Đi cùng</string>
+    <string name="so_nguoi">Số người:</string>
+    <string name="so_phong">Số phòng:</string>
+    <string name="thong_tin_phong">Thông tin phòng</string>
+    <string name="dat_dich_vu">Đặt dịch vụ</string>
+    <string name="sua_thong_tin">sửa thông tin tài khoản</string>
+    <string name="ma_thanh_toan_prompt">Hãy đưa mã này cho thu ngân thanh toán</string>
+    <string name="thong_bao_string">Thông báo</string>
+    <string name="thanh_toan_thanh_cong">Thanh toán thành công</string>
+    <string name="thanh_toan_that_bai">Thanh toán thất bại</string>
+    <string name="da_dang_ky">đã đăng ký</string>
+    <string name="dat_dich_vu_thanh_cong">Đặt dịch vụ thành công</string>
+    <string name="dat_dich_vu_that_bai">Đặt dịch vụ thất bại</string>
+    <string name="phong">Phòng</string>
+    <string name="lbl_loading">Loading</string>
+    <string name="detail_phong">Thông Tin Phòng</string>
+</resources>

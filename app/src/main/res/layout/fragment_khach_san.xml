@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitleKhachSan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#191818"
+            android:text="Khách sạn"
+            android:textSize="30sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#14051D0E"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:paddingBottom="20dp">
+
+
+            <TextView
+                android:id="@+id/tvSmallTitleStandard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Phòng Standard"
+                android:textColor="#E1191818"
+                android:textSize="22sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="#86191818">
+
+                <LinearLayout
+                    android:id="@+id/scrollViewStandard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp" />
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/tvSumaryStandard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Phòng Standard với không gian rộng rãi, sàn được trải thảm, ban công riêng hướng biển và thành phố. Với giá phòng phải chăng, trần nhà cao tạo cảm giác thông thoáng."
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btStandard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="→ Xem thêm"
+                android:textSize="10dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvSmallTitleSuperior"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Phòng Superior"
+                android:textColor="#E1191818"
+                android:textSize="22sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/horizontal_scroll_height"
+                android:background="#86191818">
+
+                <LinearLayout
+                    android:id="@+id/scrollViewSuperior"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp" />
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/tvSumarySuperior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Phòng được trang trí hiện đại kết hợp cùng các tiện nghi thông minh để đảm bảo sự thoải mái cho kỳ nghỉ của bạn."
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btSuperior"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="→ Xem thêm"
+                android:textSize="10dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#14051D0E"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:paddingBottom="20dp">
+
+
+            <TextView
+                android:id="@+id/tvSmallTitleDeluxe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Phòng Deluxe"
+                android:textColor="#E1191818"
+                android:textSize="22sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="#86191818">
+
+                <LinearLayout
+                    android:id="@+id/scrollViewDeluxe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp" />
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/tvSumaryDeluxe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Với thiết kế hiện đại, không gian rộng rãi, phòng Deluxe là lựa chọn lý tưởng dành cho các cặp đôi đi hưởng tuần trăng mật."
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btDeluxe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="→ Xem thêm"
+                android:textSize="10dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DichVuDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivDetailThumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/picture_height"
+            android:scaleType="fitXY"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvDetailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#14051D0E"
+            android:gravity="center"
+            android:text="textView"
+            android:textColor="#191818"
+            android:textSize="@dimen/fragment_title_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"
+            app:srcCompat="@drawable/hv" />
+
+        <TextView
+            android:id="@+id/tvDetailMoTa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="@dimen/big_text_size" />
+
+        <TextView
+            android:id="@+id/tvDetailKeyword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/big_text_size" />
+
+        <TextView
+            android:id="@+id/tvDetailGia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/red"
+            android:textSize="@dimen/big_text_size" />
+
+        <Button
+            android:id="@+id/btDatDichVu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dat_dich_vu"
+            android:textSize="@dimen/fragment_small_title_size" />
+    </LinearLayout>
+</ScrollView>

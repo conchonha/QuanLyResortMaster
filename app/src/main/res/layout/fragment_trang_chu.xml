@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvTitleTrangChu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/trang_chu_string"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="@dimen/fragment_title_size" />
+
+        <com.synnapps.carouselview.CarouselView
+            android:id="@+id/carouselView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/carousel_height"
+            android:background="@color/image_background"
+            android:padding="5dp"
+            app:radius="6dp"
+            app:slideInterval="3000">
+
+        </com.synnapps.carouselview.CarouselView>
+
+        <TextView
+            android:id="@+id/tvSumaryTrangChu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Không gian thiết kế theo phong cách hiện đại pha lẫn nét cổ điển sang trọng với 75 phòng được chia làm 3 khu vực: Khu nhà sàn gỗ sinh thái - gồm các căn nhà bằng gỗ tự nhiên, Khu nhà vườn - với sân vườn riêng cho mỗi căn và khu nhà nghỉ trên đồi."
+
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tvSmallTitleKhachSan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appbar_padding"
+            android:gravity="center"
+            android:text="@string/khach_san_string"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="@dimen/fragment_small_title_size" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horizontal_scroll_height"
+            android:background="@color/image_background">
+
+            <LinearLayout
+                android:id="@+id/scrollViewKhachSan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp" />
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/tvSumaryTrangChu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Khách sạn sạch sẽ, tiện nghi chuẩn 5 sao.\n Với loại phòng cho du khách chọn lựa"
+
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tvSmallTitleDichVu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/appbar_padding"
+            android:gravity="center"
+            android:text="@string/dich_vu_string"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="@dimen/fragment_small_title_size" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/horizontal_scroll_height"
+            android:background="@color/image_background">
+
+            <LinearLayout
+                android:id="@+id/scrollViewDichVu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp" />
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/tvSumaryTrangChu3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Dịch vụ giúp đáp ứng nhu cầu giải trí của mọi lứa tuổi.  Đảm bảo sẽ tạo nên những kí ức không thể nào quên"
+
+            android:textSize="@dimen/text_size" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etHoTenNDC1" type="id" />
+    <item name="etHoTenNDC2" type="id" />
+    <item name="etHoTenNDC3" type="id" />
+    <item name="etHoTenNDC4" type="id" />
+
+    <item name="etSDTNDC1" type="id" />
+    <item name="etSDTNDC2" type="id" />
+    <item name="etSDTNDC3" type="id" />
+    <item name="etSDTNDC4" type="id" />
+
+    <item name="etNgaySinhNDC1" type="id" />
+    <item name="etNgaySinhNDC2" type="id" />
+    <item name="etNgaySinhNDC3" type="id" />
+    <item name="etNgaySinhNDC4" type="id" />
+
+    <item name="etCMNDNDC1" type="id" />
+    <item name="etCMNDNDC2" type="id" />
+    <item name="etCMNDNDC3" type="id" />
+    <item name="etCMNDNDC4" type="id" />
+    
+    <item name="tableRowCMNDNDC1" type="id" />
+    <item name="tableRowCMNDNDC2" type="id" />
+    <item name="tableRowCMNDNDC3" type="id" />
+    <item name="tableRowCMNDNDC4" type="id" />
+
+    <item name="spnLoaiPhong1" type="id" />
+    <item name="spnLoaiPhong2" type="id" />
+    <item name="spnLoaiPhong3" type="id" />
+    <item name="spnLoaiPhong4" type="id" />
+    <item name="spnLoaiPhong5" type="id" />
+</resources>

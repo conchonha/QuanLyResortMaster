@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7F2F6"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="237dp"
+            android:background="#14051D0E"
+            app:srcCompat="@drawable/superior_1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#14051D0E"
+            android:textStyle="bold"
+            android:text="PHÒNG SUPERIOR"
+            android:textSize="25dp"
+            android:textColor="#191818"/>
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"
+            app:srcCompat="@drawable/hv" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textColor="#590C20"
+            android:text="Phòng được trang trí hiện đại kết hợp cùng các tiện nghi thông minh để đảm bảo sự thoải mái cho kỳ nghỉ của bạn.
+Phòng Superior với thiết bị tiêu chuẩn như internet tốc độ cao, phòng tắm với nhiều đồ dùng vệ sinh, sofa bed và ban công hướng biển."
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Thông tin phòng"
+            android:gravity="center"
+            android:textColor="#191818"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="273dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textColor="#590C20"
+                android:text="• Diện tích: 28m2\n• Ban công hướng biển\n• Phòng tắm hiện đại với gương lớn, bồn tắm đặc
+biệt với vòi hoa sen và đồ dùng vệ sinh\n• Sofa bed\n• Tivi HD\n• Két sắt an toàn\n"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:textColor="#590C20"
+                android:text="• Máy điều hòa\n• Bàn làm việc\n• Wifi miễn phí\n• Miễn phí 2 chai nước khoáng\n• Miễn phí trà và cafe\n"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#14051D0E"/>
+    </LinearLayout>
+
+</ScrollView>

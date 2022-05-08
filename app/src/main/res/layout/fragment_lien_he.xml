@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:id="@+id/scrollviewLienHe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvLienHe"
+                android:background="#42BBF3"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lien_he"
+                android:textColor="#0C0C0C"
+                android:textSize="30sp"
+                android:gravity="center"
+                />
+
+            <ImageView
+                android:id="@+id/imageFamily"
+                android:layout_width="match_parent"
+                android:layout_height="191dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/image_giadinh"
+                android:contentDescription="@string/family" />
+
+            <ImageView
+                android:background="#F8945A"
+                android:id="@+id/imageViewDiaChi"
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                app:srcCompat="@drawable/icon_address"
+                android:contentDescription="@string/icon_dress" />
+
+
+            <TextView
+                android:background="#42BBF3"
+                android:textColor="#0B0B0A"
+                android:id="@+id/txtDiachi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:text="@string/dress"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#EA078F"
+                android:text="@string/inQuyNhon"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/diachi1"
+                android:textColor="#050505"
+                android:textSize="15sp"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#0B0B0B"
+                android:textSize="15sp"
+                android:text="@string/tel1"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#EA078F"
+                android:text="@string/inNhaTrang" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#050505"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:text="@string/diachi2"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#0B0B0B"
+                android:textSize="15sp"
+                android:text="@string/tel2"/>
+
+
+            <ImageView
+                android:background="#F8945A"
+                android:id="@+id/imageViewCSKH"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:contentDescription="@string/iconcskh"
+                app:srcCompat="@drawable/icons_customer_care" />
+
+            <TextView
+                android:background="#42BBF3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="#090909"
+                android:gravity="center"
+                android:text="@string/cskh"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#ff00"
+                android:text="@string/hotline"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="@string/email_cham_soc_khach_hang"
+                android:textColor="#ff00"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
