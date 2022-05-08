@@ -1,6 +1,7 @@
 package com.example.quan_ly_resort.activity;
 
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -126,6 +127,7 @@ public class DetailPhongRS extends AppCompatActivity implements View.OnClickList
     @Override
     public void onSuccess(JSONObject jsonObj) {
         helper.dismisProgess();
+        setResult(Activity.RESULT_OK);
         finish();
         Log.d("DetailPhongRS", "onSuccess: " + jsonObj);
     }

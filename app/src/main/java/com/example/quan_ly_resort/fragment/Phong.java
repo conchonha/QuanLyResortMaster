@@ -1,5 +1,6 @@
 package com.example.quan_ly_resort.fragment;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -21,6 +22,8 @@ import org.json.JSONObject;
 
 import java.util.List;
 
+import javax.xml.transform.Result;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -32,19 +35,13 @@ public class Phong extends Fragment implements VolleyCallback, IOnItemClickAdapt
     private PhongRS phongRS = new PhongRS();
     private AdapterPhong adapterPhong = new AdapterPhong(this);
     private Helper helper;
+    private static final int REQUEST_CODE = 882;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_phong, container, false);
         return view;
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        new PhongGetter(requireContext(), this);
-        helper.showProgressLoading();
     }
 
     @Override
@@ -69,6 +66,9 @@ public class Phong extends Fragment implements VolleyCallback, IOnItemClickAdapt
         helper = new Helper(requireContext());
         RecyclerView recyclerView = view.findViewById(R.id.recyclerPhong);
         recyclerView.setAdapter(adapterPhong);
+
+        new PhongGetter(requireContext(), this);
+        helper.showProgressLoading();
     }
 
     @Override
@@ -88,7 +88,15 @@ public class Phong extends Fragment implements VolleyCallback, IOnItemClickAdapt
         Log.d("Phong", "onClick: "+phongRS);
         Intent intent = new Intent(requireContext(), DetailPhongRS.class);
         intent.putExtra(Const.PHONG_RS_ID,phongRS);
-        startActivity(intent);
+        startActivityForResult(intent,REQUEST_CODE);
     }
 
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == REQUEST_CODE && resultCode == Activity.RESULT_OK){
+            new PhongGetter(requireContext(), this);
+            helper.showProgressLoading();
+        }
+    }
 }
